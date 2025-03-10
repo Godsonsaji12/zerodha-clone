@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #424242;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  max-width: 13%;
+  min-height: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  margin-top: 30px;
+}
+.menu {
+  margin-right: 50px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+}
+
+.menu li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  color: #387ed1;
+  transition: 0.3s;
+}
+
+.landing-img {
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.section {
+  margin: 0 200px;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.signup-content .title {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.signup-btn {
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  background-color: #387ed1;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background-color: #000000;
+}
+
+.about-container {
+  display: flex;
+}
+
+.content-img img {
+  width: 90%;
+  height: auto;
+  margin-left: 70px;
+}
+
+.about-container {
+  margin-top: 80px;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.sub-section-title {
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sub-section-description {
+  width: 450px;
+  font-weight: 400;
+  color: #424242;
+}
+
+.sub-section-description a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sub-section-description a:hover {
+  color: #000000;
+}
+
+.link-section {
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+.link-section a {
+  color: #387ed1;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link-section a:hover {
+  color: #000;
+}
+
+.brand-partner {
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.pricing-container {
+  margin-top: 120px;
+  display: flex;
+}
+.pricing {
+  display: flex;
+}
+.pricing-logo {
+  width: 20%;
+}
+.pricing-text {
+  font-size: 12px;
+  width: 100px;
+}
+
+.pricing p {
+  margin-top: 40px;
+}
+
+.pricing-content h3 {
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+.pricing-content p {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.pricing-btn a {
+  color: #387ed1;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.pricing-btn a:hover {
+  color: #000000;
+}
