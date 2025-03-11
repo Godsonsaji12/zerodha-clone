@@ -185,3 +185,87 @@
 .pricing-btn a:hover {
   color: #000000;
 }
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.edu-content {
+  margin-left: 120px;
+}
+
+.edu-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.edu-text {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.edu-text-2 {
+  margin-top: 20px;
+}
+
+.edu-btn {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.account-open-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 120px;
+  font-weight: 500;
+  font-size: 32px;
+}
+.account-open-container .open-txt {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.account-open-container p {
+  text-align: center;
+}
+
+.account-open-container a {
+  text-decoration: none;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.footer-menu-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+  width: 800px;
+  margin-bottom: 40px;
+}
+
+.footer-menu lI {
+  line-height: 30px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-menu li:hover {
+  color: #387ed1;
+}
+
+.menu-title {
+  margin-bottom: 20px;
+}
